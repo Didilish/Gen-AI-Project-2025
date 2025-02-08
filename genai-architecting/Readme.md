@@ -1,41 +1,31 @@
-# GenAI Architecting
+# GenAI Architecting - GenAI Workload Architecture
 
 ## Overview
-The **GenAI Architecting** project focuses on designing scalable, efficient, and cost-effective architectures for Generative AI workloads. This serves as a reference for AI engineers and stakeholders to navigate the technical landscape of implementing GenAI solutions.
+This folder provides a conceptual architecture for deploying GenAI workloads, focusing on scalability, integration, and governance. It aims to guide stakeholders in understanding the technical components and considerations when adopting GenAI solutions.
 
-## Business Goal
-As a Solution Architect, the objective is to create architectural diagrams that help stakeholders visualize key components, technical dependencies, and infrastructure considerations when adopting GenAI.
+## Key Components
+1. **Language Portal**: Interfaces for teachers and students to access study activities.
+2. **Backend**: Processes requests, interacts with the database, and connects to study modules.
+3. **Study Activities**: Handles RAG (Retrieval-Augmented Generation) processes with:
+   - **Vector Database**: Stores embeddings for context.
+   - **Prompt Cache**: Optimizes repeated queries.
+   - **Input/Output Guardrails**: Ensures data integrity and compliance.
+   - **LLM 7B**: Processes user queries with context-enhanced responses.
 
-## Architectural Approach
-### **Diagram Levels**
-- **Conceptual**: High-level overviews for stakeholders to understand the business value.
-- **Logical**: Mid-level representation of technical components and interactions.
-- **Physical**: Detailed architecture specifying infrastructure, deployment strategies, and integrations.
+## Technical Considerations
+- **Scalability**: Modular design supports growth.
+- **Guardrails**: Input/output validation ensures responsible AI use.
+- **Caching**: Reduces model latency and enhances efficiency.
+- **Integration**: Supports APIs and CI/CD pipelines for seamless deployment.
+- **Monitoring**: Includes KPIs, feedback loops, and cost management.
 
-### **Key Considerations**
-#### **Technical**
-- **Infrastructure Design**: Cloud vs. on-prem, AI accelerators, multi-cloud strategies.
-- **Model Selection**: SaaS vs. self-hosted, open-source vs. proprietary, context window, inference costs.
-- **Data Strategy**: Collection, privacy, security, and integration.
-- **Integration & Deployment**: CI/CD pipelines, API interfaces, compatibility with legacy systems.
-- **Monitoring & Optimization**: Logging, telemetry, and performance feedback loops.
-- **Security & Governance**: Access controls, responsible AI policies, compliance requirements.
+## Use Cases
+- Education: AI-driven study aids and language tools.
+- Business: Scalable AI integrations with robust security and governance.
 
-#### **Business**
-- **Use Cases**: Identifying AI-driven solutions that align with business needs.
-- **Cost Considerations**: Compute size, model selection, scaling strategies.
-- **Vendor Lock-in**: Designing for flexibility to transition between models and providers.
-
-### **LLM-Specific Considerations**
-- **Model Selection**: Open-source vs. proprietary, cost implications.
-- **Context Enhancement**: Direct injection vs. knowledge bases.
-- **Guardrails**: Input/output validation, implementation safeguards.
-- **Caching Strategy**: Levels, storage, invalidation rules.
-- **Agent-based Systems**: Execution actions, system integration.
-
-## Tools & References
-- **Lucid Chart** (Diagramming)
-- **C4 Model** (System Architecture)
-- **TOGAF** (Enterprise Architecture)
+## Future-Proofing
+- Open-source compatibility to avoid vendor lock-in.
+- Hybrid and multi-cloud support.
+- Modular updates for evolving AI technologies.
 
 
