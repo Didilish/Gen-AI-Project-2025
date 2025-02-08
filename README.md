@@ -1,4 +1,4 @@
-# Gen-ai-2025
+# Gen-AI-2025
 Japanese Sentense Constructor
 
 
