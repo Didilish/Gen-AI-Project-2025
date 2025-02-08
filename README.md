@@ -39,11 +39,6 @@ All development work will be committed to this repository.
 - The repository **must remain public**.
 - AI model experiments and outputs should be documented in project logs.
 
-## License
-This project is licensed under the MIT License.
-
-## Author
-[Your Name]
 
 ## Acknowledgements
 Special thanks to the contributors and AI communities for supporting this project.
