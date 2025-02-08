@@ -28,4 +28,8 @@ This folder provides a conceptual architecture for deploying GenAI workloads, fo
 - Hybrid and multi-cloud support.
 - Modular updates for evolving AI technologies.
 
+## Tools & References
+- Lucid Chart (Diagramming)
+- C4 Model (System Architecture)
+- TOGAF (Enterprise Architecture)
 
