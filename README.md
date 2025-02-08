@@ -1,5 +1,5 @@
-# Gen-AI-2025
-Japanese Sentense Constructor
+# Gen-AI-2025: Japanese Sentense Constructor
+
 
 
 ## Overview
